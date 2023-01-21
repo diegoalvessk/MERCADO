@@ -55,6 +55,15 @@ html {
     margin-left: 3vw;
     vertical-align: middle;
     line-height: normal;
+    text-decoration: none;
+    color: black;
+  }
+
+  .nav-options:hover {
+    transition-duration: 1s;
+    padding: 0.4%;
+    background-color: black;
+    color: white;
   }
 
   .content {
@@ -64,13 +73,9 @@ html {
   }
 
   .benefits {
-    width: 80vw;
-    height: 14vh;
     background-color: white;
-    display: inline-block;
-    margin-top: 5vh;
+    height: 14vh;
     border-radius: 1vh;
-    text-align: center;
   }
 
   .first-card, .card {
@@ -93,3 +98,44 @@ html {
   h2 {
     font-size: 1.6vh;
   }
+
+  .contents{
+    text-align: left;
+    display: inline-block;
+    margin-top: 5vh;
+  }
+
+  .products {
+    width: 80vw;
+  }
+  .cards {
+    width: 15vw;
+    margin-left: 2.5vh;
+    margin-right: 2.5vw;
+    float: left;
+    height: 22.5vh;
+    background-color: white;
+    overflow: hidden;
+  }
+
+  .cards:hover {
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    height: 30vh;
+  }
+
+  .cards h2{
+    font-size: 2vh;
+    margin-left: 2.5vw;
+  }
+
+  .cards h3{
+    font-size: 1.5vh;
+    margin-left: 2.5vw;
+    text-decoration: line-through;
+  }
+
+  .linha-horizontal {
+    width: 300px;
+    border: 0.2px solid rgb(130, 123, 123);
+}
